@@ -304,7 +304,6 @@ class ConvLSTM(nn.Module):
         eff = torch.zeros(batch_size, seq_len, 2,
         height-1, width-1, device=device)
         bounded_nodes = torch.where(X[:,:,channels-1,...] == -1)
-        # bounded_nodes = torch.where(torch.diff(X[:,:,0:2,:,:],dim=(1)).sum(axis=(1,2)) == 0)
         # Unroll over time steps
         for time_step in range(seq_len):
             
