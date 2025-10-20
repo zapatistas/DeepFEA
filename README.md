@@ -10,7 +10,15 @@ This repository accompanies the paper:
 
 > Triantafyllou, G., Kalozoumis, P. G., Dimas, G., & Iakovidis, D. K. (2025). DeepFEA: Deep learning for prediction of transient finite element analysis solutions. *Expert Systems with Applications*, 269, 126343. https://doi.org/10.1016/j.eswa.2024.126343
 
-In this work, DeepFEA demonstrates how deep neural networks can be trained to accurately approximate the dynamic behavior of physical systems modeled via FEA, significantly reducing computational cost while maintaining high fidelity.
+
+DeepFEA is specifically designed to handle **multi-timestep prediction** tasks in transient Finite Element Analysis (FEA). By learning temporal dependencies in simulation data, it can:
+
+- Accurately approximate the dynamic behavior of physical systems over time.
+- Significantly reduce computational cost compared to traditional solvers.
+- Maintain high fidelity across multiple future steps.
+
+> 🧠 In this work, DeepFEA demonstrates how deep neural networks can be trained to accurately approximate the dynamic behavior of physical systems modeled via transient FEA simulations, significantly reducing computational cost while maintaining high fidelity for multi-timestep prediction.
+
 
 ## ⚙️ Installation
 
