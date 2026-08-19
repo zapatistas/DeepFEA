@@ -2,7 +2,7 @@
 
 ![Graphical Abstract](graphical_abstract.jpg)
 
-DeepFEA is a deep learning model designed to predict solutions of transient Finite Element Analysis (FEA) simulations. Built with PyTorch, it offers a data-driven alternative to traditional numerical solvers, enabling faster and more efficient simulation workflows.
+DeepFEA is a deep learning framework designed to predict solutions of transient Finite Element Analysis (FEA) simulations. Built with PyTorch, it offers a data-driven alternative to traditional numerical solvers, enabling faster and more efficient simulation workflows.
 
 ## 📄 Overview
 
